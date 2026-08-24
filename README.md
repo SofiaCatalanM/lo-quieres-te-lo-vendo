@@ -4,9 +4,7 @@
 Sitio web estático para el emprendimiento "Lo quieres, te lo vendo". Este proyecto es parte de la asignatura Desarrollo Full Stack II (DSY 1104).
 
 ## Integrantes del Equipo
-- [Tu nombre completo]
-- [Nombre del compañero 2]
-- [Nombre del compañero 3]
+- Sofia Catalan
 
 ## Año
 2026
@@ -28,10 +26,10 @@ lo-quieres-te-lo-vendo/
 - Git (control de versiones)
 
 ## Características
-✅ Diseño responsivo (celular, tablet, escritorio)  
-✅ Menú de navegación adaptativo  
-✅ Formulario de contacto estilizado  
-✅ Imágenes responsivas  
+Diseño responsivo (celular, tablet, escritorio)  
+Menú de navegación adaptativo  
+Formulario de contacto estilizado  
+Imágenes responsivas  
 
 ## Diferencias entre Bootstrap y Materialize
 
