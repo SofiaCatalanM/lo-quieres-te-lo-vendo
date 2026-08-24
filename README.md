@@ -9,15 +9,6 @@ Sitio web estático para el emprendimiento "Lo quieres, te lo vendo". Este proye
 ## Año
 2026
 
-## Estructura del Proyecto
-lo-quieres-te-lo-vendo/
-├── assets/
-│ ├── img/ # Imágenes del sitio
-│ ── style.css # Hoja de estilos personalizada
-├── index.html # Página principal
-├── contacto.html # Página de contacto
-└── README.md # Este archivo
-
 ## Tecnologías Utilizadas
 - HTML5
 - CSS3
