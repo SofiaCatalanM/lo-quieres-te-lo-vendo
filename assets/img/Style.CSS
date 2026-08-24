@@ -1,51 +1,152 @@
-/* 1. Estilos generales*/
-*{
+/* ============================================
+   TABLA DE CONTENIDO
+   ============================================
+   1. Estilos generales (Mobile First)
+   2. Menú de navegación
+   3. Sección principal (Extracto)
+   4. Footer
+   5. Formulario de contacto
+   6. Responsive - Tablet (min-width: 600px)
+   7. Responsive - Escritorio (min-width: 992px)
+   ============================================ */
+
+/* 1. Estilos generales (Base para móviles) */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
+    background-color: #f4f4f4;
 }
 
 h1 {
     text-align: center;
     padding: 20px;
+    color: #222;
 }
 
-/* 2. Menu de navegacion*/
-
+/* 2. Menú de navegación */
 nav {
-    background-color: blue;
-    padding: 10px;
+    background-color: blue; /* Requisito de la guía */
+    padding: 15px;
     text-align: center;
 }
 
 nav a {
-    color: white;
+    color: white; /* Requisito de la guía */
     text-decoration: none;
     margin: 0 10px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px;
 }
 
 nav a:hover {
     text-decoration: underline;
+    background-color: darkblue;
+    border-radius: 4px;
 }
 
-/*3. Seccion principal*/
+/* 3. Sección principal (Extracto de la empresa) */
 section {
-    text-align: center;
+    text-align: center; 
     padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+section p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
     max-width: 800px;
     margin: 0 auto;
 }
 
-/*4. Footer*/
+/* 4. Footer */
 footer {
-    background-color: black;
+    background-color: black; 
     color: white;
     text-align: center;
     padding: 15px;
     margin-top: 20px;
+}
+
+/* 5. Formulario de contacto */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: darkblue;
+}
+
+/*MEDIA QUERIES (Diseño Responsivo)*/
+
+/* 6. Tablet (Pantallas de 600px en adelante) */
+@media screen and (min-width: 600px) {
+    nav a {
+        margin: 0 20px;
+        font-size: 1.1em;
+    }
+    
+    section {
+        padding: 40px;
+    }
+}
+
+/* 7. Escritorio (Pantallas de 992px en adelante) */
+@media screen and (min-width: 992px) {
+    body {
+        background-color: #e9ecef;
+    }
+
+    nav {
+        padding: 20px;
+    }
+
+    nav a {
+        margin: 0 30px;
+        font-size: 1.2em;
+    }
+
+    section {
+        max-width: 800px;
+        padding: 50px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
 }
