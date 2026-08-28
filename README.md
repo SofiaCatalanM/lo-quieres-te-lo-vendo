@@ -28,10 +28,10 @@ lo-quieres-te-lo-vendo/
 - Git (control de versiones)
 
 ## Características
-✅ Diseño responsivo (celular, tablet, escritorio)  
-✅ Menú de navegación adaptativo  
-✅ Formulario de contacto estilizado  
-✅ Imágenes responsivas  
+Diseño responsivo (celular, tablet, escritorio)  
+Menú de navegación adaptativo  
+Formulario de contacto estilizado  
+Imágenes responsivas  
 
 ## Diferencias entre Bootstrap y Materialize
 
