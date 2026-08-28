@@ -4,21 +4,10 @@
 Sitio web estático para el emprendimiento "Lo quieres, te lo vendo". Este proyecto es parte de la asignatura Desarrollo Full Stack II (DSY 1104).
 
 ## Integrantes del Equipo
-- [Tu nombre completo]
-- [Nombre del compañero 2]
-- [Nombre del compañero 3]
+- Sofia Catalan
 
 ## Año
 2026
-
-## Estructura del Proyecto
-lo-quieres-te-lo-vendo/
-├── assets/
-│ ├── img/ # Imágenes del sitio
-│ ── style.css # Hoja de estilos personalizada
-├── index.html # Página principal
-├── contacto.html # Página de contacto
-└── README.md # Este archivo
 
 ## Tecnologías Utilizadas
 - HTML5
